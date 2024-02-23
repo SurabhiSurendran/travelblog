@@ -1,0 +1,372 @@
+#logo{
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.banner{
+    background-image: url(https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/UFRDCMVRMUI6THDJBFNCFFY4OY.jpg);
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    background-size: cover;
+    font-size: large;
+}
+.sub{
+    margin-left: 100px;
+    margin-right: 100px;
+
+    margin-top: 5px;
+   padding: 30px;
+   padding-left: 200px;
+    background-color: rgb(232, 95, 157); 
+    color: white;
+}
+.sub button{
+    border-color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+.ban{
+    background-image: url(https://media.cntraveler.com/photos/5e74f9de2e6ca30009d1d4fa/16:9/w_2560%2Cc_limit/Argentina-GettyImages-1146497849.jpg);
+    height: 350px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 15px;
+    margin-top: 70px;
+    background-size: cover;
+}
+
+.content{
+    width: 100%;
+    height: 350px;
+ border-radius: 15px;
+top: 0;
+    background-size: cover;
+
+    position: relative;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+.ban.content h4{
+color: #ffe100;
+margin-bottom: 15px;
+}
+
+.blog{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.blog h2{
+    position: relative;
+    cursor: pointer;
+    margin: 100px;
+    text-align: center;
+}
+.blog h2::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    height: 2px;
+    width: 290px;
+    margin-top: 50px;
+    left: 37%;
+    background-color: rgb(39, 114, 219);
+}
+.blog img{
+width: 410px;
+height: 300px;
+border-radius: 15px;
+color: rgb(39, 114, 219);
+}
+.blog h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(39, 114, 219);
+}
+.blog h4:hover{
+    color: black;
+}
+.blog button{
+    color: aliceblue;
+    background-color: rgb(232, 95, 157);
+    border-radius: 5px;
+    border-color: rgb(232, 95, 157);
+    padding: 10px;
+    width: 250px;
+    margin-left: 550px;
+}
+.blog button:hover{
+    background-color: black;
+    border-color: black;
+}
+.top{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.top .row{
+    display: flex;
+}
+
+#paris{
+height: 350px;
+background-image: url(https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900);
+background-size:350px;
+background-repeat: no-repeat;
+background-size: cover;
+position : relative;
+margin-right: 50px;
+padding: 0px;
+
+}
+#new{
+    height: 350px;
+    background-image: url(https://worldstrides.com/wp-content/uploads/2015/07/iStock_000040849990_Large.jpg);
+    background-size:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position : relative;
+    margin-right: 50px;
+    padding: 0px;
+    }
+.paris{
+    height:350px;
+    width: 380px;
+    background: rgba(30, 28, 28, 0.6);
+    background-size: cover;
+    
+    opacity: 0;
+    transition: 0.6s;
+}
+#italy{
+    width: 350px;
+background-image: url(https://media.architecturaldigest.com/photos/5903ad5c1732ef7d3c2b9e38/1:1/w_1998,h_1998,c_limit/5%20Seaside%20Towns%20in%20Italy.jpg);
+background-size:350px;
+background-repeat: no-repeat;  
+background-size: cover;
+position : relative;
+margin-right: 50px;
+padding: 0px;
+}
+#usa{
+    width: 30px;
+background-image: url(https://jooble.org/images/cities/us/33025.jpg);
+background-size:350px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-right: 40px;
+padding: 0px;
+}
+#sw{
+    height: 350px;
+    background-image: url(https://static.toiimg.com/thumb/msid-93182791,imgsize-121886,width-900,height-1200,resizemode-6/93182791.jpg);
+    background-size:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position : relative;
+    margin-right: 40px;
+    
+    padding: 0px;
+    }
+    #japan{
+        height: 350px;
+        background-image: url(https://m.economictimes.com/thumb/msid-93504219,width-1200,height-900,resizemode-4,imgsize-145174/japan.jpg);
+        background-size:350px;
+  
+        background-repeat: no-repeat;
+        background-size: cover;
+        position : relative;
+        margin-right: 50px;
+        padding: 0px;
+        }
+        #two{
+margin-top: 30px;
+        }
+        .paris h1{
+            text-align: center;
+            align-items: center;
+        position: relative;
+        top: 150px;
+        color: #e7e7e4a7;
+        }
+.paris:hover{
+    opacity: 2;
+}
+.paris.content h1{
+color: #e7e7e4;
+
+}
+
+.content:hover{
+    opacity: 1;
+}
+.ban.content h4{
+color: #ffe100;
+margin-bottom: 15px;
+}
+.top h2{
+    position: relative;
+    cursor: pointer;
+    margin: 100px;
+    text-align: center;
+}
+.top h2::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    height: 2px;
+    width: 290px;
+    margin-top: 50px;
+    left: 37%;
+    background-color: rgb(39, 114, 219);
+}
+.top img{
+width: 410px;
+color: rgb(39, 114, 219);
+}
+.top h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(39, 114, 219);
+}
+.top h4:hover{
+    color: black;
+}
+.destination{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.destination h2{
+    position: relative;
+    cursor: pointer;
+    margin: 100px;
+    text-align: center;
+}
+.destination h2::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    height: 2px;
+    width: 290px;
+    margin-top: 50px;
+    left: 37%;
+    background-color: rgb(39, 114, 219);
+}
+.destination img{
+width: 410px;
+color: rgb(39, 114, 219);
+}
+.destination h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(39, 114, 219);
+}
+.destination h4:hover{
+    color: black;
+}
+.post{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.post h2{
+    position: relative;
+    cursor: pointer;
+    margin: 100px;
+    text-align: center;
+}
+.post h2::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    height: 2px;
+    width: 290px;
+    margin-top: 50px;
+    left: 37%;
+    background-color: rgb(39, 114, 219);
+}
+.post img{
+width: 410px;
+color: rgb(39, 114, 219);
+}
+.post h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(39, 114, 219);
+}
+.post h4:hover{
+    color: black;
+}
+.post button{
+    color: aliceblue;
+    background-color: rgb(232, 95, 157);
+    border-radius: 5px;
+    border-color: rgb(232, 95, 157);
+    padding: 5px;
+    width: 400px;
+    margin-left: 450px;
+    font-size: larger;
+margin-top: 40px;
+}
+.post button:hover{
+    background-color: black;
+    border-color: black;
+}
+.seen{
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 100px;
+}
+.seen h2{
+    position: relative;
+    cursor: pointer;
+    margin: 100px;
+    text-align: center;
+}
+.seen h2::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    height: 2px;
+    width: 170px;
+    margin-top: 50px;
+    left: 40%;
+    background-color: rgb(39, 114, 219);
+}
+.seen img{
+    width: 150px;
+    height: 100px;
+    color: rgb(39, 114, 219);
+    }
+    footer{
+        background-color: rgb(59, 56, 56);
+        color: aliceblue;
+        padding: 20px;
+    }
+    footer a{
+        color: aliceblue;
+        text-decoration: none;
+     
+    }
+
